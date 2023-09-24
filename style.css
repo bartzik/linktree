@@ -5,17 +5,7 @@
 }
 
 body {
-  /*
-  background-image: url(./assets/bg-mobile.jpg);
-  background-repeat: no-repeat;
-  background-position: top center;
-  background-size: cover;
 
-  todos os estilos acima podem ser juntados em apenas um "comando"
-  background: color image repeat position/size
-  */
-
-  /*background: url(./assets/bg-mobile.jpg) no-repeat top center/cover;*/
   background-color: var(--bg-color);
   background-image: var(--bg-image);
 }
@@ -79,6 +69,7 @@ body * {
 
 /* switch */
 #switch {
+  display: none;
   position: relative;
   width: 64px;
   margin: 4px auto;
